@@ -1,14 +1,14 @@
 # banner
 banner:
-  title : "Hi! I’m <br> Christoher <br> UX designer"
+  title : "Hi! I’m <br> Jamison <br> Designer &<br> Developer"
 
 # about
 about:
   enable : true
-  content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+  content : "I build [apps](/portfolio), design [logos](/portfolio), write grants, and ride [bikes](//jscycles.com)."
   button:
     enable : true
-    label : "know more"
+    label : "About me"
     URL : "about"
 
 # skill
@@ -16,21 +16,25 @@ skill:
   enable : true
   title : "Skills"
   item:
-    - title : "Web Design"
-      progress : "90%"
+    - title : "Product design"
+      progress : "100%"
+      color : "#ffbcaa"
+      experience : "10 years"
+
+    - title : "Web development"
+      progress : "90"
       color : "#fdb157"
+      experience : "8 years"
       
     - title : "Logo Design"
       progress : "60%"
       color : "#9473e6"
+      experience : "6 years"
       
-    - title : "After Effects"
-      progress : "80%"
+    - title : "Native development"
+      progress : "60%"
       color : "#bdecf6"
-      
-    - title : "Web App"
-      progress : "70%"
-      color : "#ffbcaa"
+      experience : "6 years"
 
 # experience
 experience:
@@ -38,44 +42,32 @@ experience:
   title : "Experience"
   item: 
     - logo : "images/experience/icon-1.png"
-      title : "Junior UX Designer"
-      company : "WEBEX"
-      duration : "Jan 2007 - Feb 2009"
+      title : "Front-end Development Intern"
+      company : "Neucadia"
+      duration : "Jan 2010 - Apr 2013"
       
     - logo : "images/experience/icon-2.png"
-      title : "UX & UI Designer"
-      company : "AUGMEDIX"
-      duration : "Mar 2009 - Aug 2014"
+      title : "Web Developer"
+      company : "Neucadia"
+      duration : "May 2013 - Oct 2017"
       
     - logo : "images/experience/icon-1.png"
-      title : "Senior UI Designer"
-      company : "THEMEFISHER"
-      duration : "Sep 2014 - Present"
+      title : "Software Engineer"
+      company : "Harvey Milling Co"
+      duration : "Nov 2017 - Present"
 
 # education
 education:
   enable : true
   title : "Education"
   item:
-    - title : "Marters in UX Design"
-      year : "2006"
-      academy : "Masassusets Institute of Technology"
-      
-    - title : "Honours in Fine Arts"
-      year : "2004"
-      academy : "Harvard University"
-      
-    - title : "Higher Secondary Certificat"
-      year : "2000"
-      academy : "Cardiff School"
-      
-    - title : "Secondary School Certificate"
-      year : "1998"
-      academy : "Cardiff School"
+    - title : "Bachelor of Arts in Professional Writing"
+      year : "2013"
+      academy : "Michigan State University"
 
 # service
 service:
-  enable : true
+  enable : false
   title : "Services"
   item:
     - title : "UI Design"
@@ -102,7 +94,7 @@ portfolio:
 
 # testimonial
 testimonial:
-  enable : true
+  enable : false
   title : "Testimonials"
   item:
     - name : "Jesica Gomez"
